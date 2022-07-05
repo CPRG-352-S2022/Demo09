@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/Demo09_JPA">
+    <Resource
+        name="jdbc/notesdb"
+        url="jdbc:mysql://localhost:3306/notesdb"
+        username="root" password="password"
+        auth="Container" 
+        driverClassName="com.mysql.jdbc.Driver"
+        maxActive="100" maxIdle="30" maxWait="10000" 
+        logAbandoned="true" removeAbandoned="true" 
+        removeAbandonedTimeout="60" type="javax.sql.DataSource" />
+</Context>
